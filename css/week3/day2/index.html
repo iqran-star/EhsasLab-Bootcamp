@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2021/08/20/13/00/gym-6560336__340.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gym</title>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <img src="https://cdn.pixabay.com/photo/2021/08/20/12/46/gym-6560285__340.png" alt="">
+        </header>
+        <section class="article">
+            <table width="100%">
+                <tr>
+                    <td>
+                        <a href="#" class="link">Add Article</a>
+                    </td>
+                    <td width="50%">
+                        <span id="typed"></span>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section class="articles">
+            <article>
+                <h1 class="article-title">Lorem, ipsum dolor.</h1>
+                <img src="https://cdn.pixabay.com/photo/2012/04/13/15/02/gym-32740__340.png" alt="" class="artile-image">
+                <p class="article-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis voluptatem veniam mollitia non, ab, rerum animi quam libero, iusto ut autem quae officiis? Soluta debitis eius iure pariatur tenetur nostrum.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ["First sentence.", "Second sentence.",'Third sentence'],
+            typeSpeed: 30,
+            loop:true,
+          });
+    </script>
+</body>
+</html>

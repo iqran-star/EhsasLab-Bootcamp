@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.link{
+    color:crimson;
+    text-decoration: none;
+    background-color: #777;
+    padding: 10px;
+}
+.article-title{
+    color:goldenrod;
+    text-align: center;
+}
+.header{
+    padding:5%;
+
+}
+.article{
+    margin-bottom: 5%;
+}
+.artile-image{
+    margin:5%;
+}
+.article-body{
+    color:olive;
+}
