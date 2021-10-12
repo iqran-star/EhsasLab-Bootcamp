@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>padding</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+           
+            
+        }
+        .p-1{
+            padding:10px;
+        }
+        .border{
+            border:1px solid;
+        }
+        .main-title{
+            color:crimson;
+            font-size:1.2rem;
+            font-family:'anton';
+        }
+        .main-body{
+            color:olive; 
+            width: 80%;
+        }
+        .main{
+            width: 90%;
+            margin:5%;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 80%;
+            margin:auto;
+        }
+        .row{
+            display: flex;
+        }
+        .row > .col-sm-4{
+            margin:2px;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section class="border main">
+        <h1 class="main-title p-1">
+            Lorem, ipsum dolor.
+        </h1>
+        <p class="main-body p-1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa provident repellat debitis blanditiis veritatis fuga unde cumque consequatur amet animi quisquam, nihil architecto voluptates error minus nesciunt enim numquam a.
+        </p>
+    </section>
+    <main class="container">
+       <div class="row">
+            <div class="col-sm-4">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A saepe explicabo eligendi velit eveniet vitae omnis fuga sit ullam rem possimus vero quia reprehenderit, quidem provident molestiae culpa corporis neque.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A saepe explicabo eligendi velit eveniet vitae omnis fuga sit ullam rem possimus vero quia reprehenderit, quidem provident molestiae culpa corporis neque.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A saepe explicabo eligendi velit eveniet vitae omnis fuga sit ullam rem possimus vero quia reprehenderit, quidem provident molestiae culpa corporis neque.
+                </p>
+            </div>
+       </div>
+    </main>
+</main>
+</body>
+</html>
